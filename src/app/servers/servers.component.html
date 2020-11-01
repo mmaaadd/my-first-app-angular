@@ -1,8 +1,14 @@
 <label>Server Name</label>
+<!-- ONE WAY DATA BINDING -->
+<!-- <input 
+    type="text" 
+    class="form-control" 
+    (input) = "onUpdateServerName($event)"> -->
+
 <input 
     type="text" 
     class="form-control" 
-    (input) = "onUpdateServerName($event)">
+    [(ngModel)]="serverName">
 
     <p>{{ serverName }}</p>
 
