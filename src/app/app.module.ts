@@ -6,7 +6,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
-import {NgModel} from '@angular/forms'
+// import {NgModel} from '@angular/forms';
 // import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
@@ -19,8 +19,7 @@ import {NgModel} from '@angular/forms'
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    NgModel
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
